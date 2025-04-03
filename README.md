@@ -1,0 +1,2 @@
+# Zoontic-
+bu ishimga qilyapman
