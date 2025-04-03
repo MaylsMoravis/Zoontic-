@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoonotic Diseases</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; background-color: #f4f4f4; }
+        h1, h2 { color: #333; text-align: center; }
+        .container { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .disease { margin-bottom: 40px; }
+        .disease img { width: 100%; max-width: 300px; height: auto; margin-right: 10px; }
+        .disease-info { display: flex; flex-wrap: wrap; align-items: center; }
+        .disease-description { max-width: 600px; }
+        .prevention { font-weight: bold; color: #007bff; }
+
+        /* Telefon uchun moslashuv */
+        @media (max-width: 768px) {
+            .disease-info { flex-direction: column; align-items: center; }
+            .disease img { margin-bottom: 10px; }
+        }
+
+        /* Printer uchun moslashuv */
+        @media print {
+            body { background: white; color: black; }
+            .container { box-shadow: none; padding: 0; }
+            img { display: none; } /* Rasmlarni yashiramiz */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zoonotic Diseases from Pets</h1>
+
+        <!-- Rabies -->
+        <div class="disease">
+            <h2>Rabies</h2>
+            <div class="disease-info">
+                <img src="https://www.pdsa.org.uk/media/13138/symptoms-of-rabies-in-dogs-infographic.png" alt="Rabies in Dogs">
+                <div class="disease-description">
+                    <p>Rabies is a viral disease affecting the nervous system, usually transmitted through animal bites.</p>
+                    <p class="prevention">Prevention: Vaccinate pets, avoid stray animals, and seek medical help after bites.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Leptospirosis -->
+        <div class="disease">
+            <h2>Leptospirosis</h2>
+            <div class="disease-info">
+                <img src="https://i.ytimg.com/vi/XRXvOqhYu-M/maxresdefault.jpg" alt="Leptospirosis Bacteria">
+                <div class="disease-description">
+                    <p>Leptospirosis is a bacterial disease spread through contaminated water, affecting kidneys and liver.</p>
+                    <p class="prevention">Prevention: Keep pets away from contaminated water, maintain hygiene, and vaccinate them.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toxoplasmosis -->
+        <div class="disease">
+            <h2>Toxoplasmosis</h2>
+            <div class="disease-info">
+                <img src="https://www.amrric.org/wp-content/uploads/2021/07/Toxo-Pic.jpg" alt="Toxoplasmosis in Cats">
+                <div class="disease-description">
+                    <p>Toxoplasmosis is a parasitic infection from cat feces, dangerous for pregnant women.</p>
+                    <p class="prevention">Prevention: Wash hands after handling cats, clean litter boxes properly, and cook meat well.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ringworm -->
+        <div class="disease">
+            <h2>Ringworm</h2>
+            <div class="disease-info">
+                <img src="https://cdn.prod.website-files.com/604bd0b0571e783e6dedca7f/6351b865bcf144600bf088ff_%5BEDITORIAL012%5D%20Ringworm%20Infographic_Cats.webp" alt="Ringworm in Cats">
+                <div class="disease-description">
+                    <p>Ringworm is a contagious fungal skin infection that spreads through direct contact.</p>
+                    <p class="prevention">Prevention: Keep pets clean, disinfect surfaces, and treat infections early.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hantavirus -->
+        <div class="disease">
+            <h2>Hantavirus</h2>
+            <div class="disease-info">
+                <img src="https://pub.mdpi-res.com/viruses/viruses-15-01705/article_deploy/html/images/viruses-15-01705-g005.png" alt="Hantavirus in Rodents">
+                <div class="disease-description">
+                    <p>Hantavirus is a severe respiratory disease caused by exposure to rodent urine or droppings.</p>
+                    <p class="prevention">Prevention: Avoid contact with rodents, seal homes, and maintain cleanliness.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
